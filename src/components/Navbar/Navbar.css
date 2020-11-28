@@ -1,0 +1,29 @@
+a {
+    color:rgb(147, 161, 161);
+}
+
+a:hover {
+    color: #52781e;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.lightDarkToggle {
+    padding-left: 20px;
+}
+
+.link {
+    color: rgb(147, 161, 161);
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.link:hover {
+    color:  #52781e;
+}
+
+.menu-link {
+    color:  rgb(147, 161, 161);
+}
