@@ -152,18 +152,21 @@ export default function PrimarySearchAppBar() {
             transformOrigin={{ vertical: 'top', horizontal: 'right' }}
             open={isMobileMenuOpen}
             onClose={handleMobileMenuClose}
-        >
+        >   
+            <MenuItem>
+                <Link to="/" className="link">Home</Link>
+            </MenuItem>
             <MenuItem>
                 <Link to="/fitness" className="link">Fitness</Link>
             </MenuItem>
             <MenuItem>
-                <Link to="/yoga" className="link">Yoga</Link>
+                <Link to="/nature" className="link">Nature</Link>
             </MenuItem>
             <MenuItem>
                 <Link to="/nutrition" className="link">Nutrition</Link>
             </MenuItem>
             <MenuItem>
-                <Link to="/nature" className="link">Nature</Link>
+                <Link to="/yoga" className="link">Yoga</Link>
             </MenuItem>
         </Menu>
     );
@@ -175,10 +178,11 @@ export default function PrimarySearchAppBar() {
                     <div className={classes.grow} />
                     <div className={classes.sectionDesktop}>
                     <Typography>
+                        <Link to="/" className="link">Home</Link>
                         <Link to="/fitness" className="link">Fitness</Link>
-                        <Link to="/yoga" className="link">Yoga</Link>
-                        <Link to="/nutrition" className="link">Nutrition</Link>
                         <Link to="/nature" className="link">Nature</Link>
+                        <Link to="/nutrition" className="link">Nutrition</Link>
+                        <Link to="/yoga" className="link">Yoga</Link>
                     </Typography>
                     
                     
