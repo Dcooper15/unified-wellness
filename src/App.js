@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Typography } from "@material-ui/core";
 import Home from "./components/Pages/Home";
 import Fitness from "./components/Pages/Fitness";

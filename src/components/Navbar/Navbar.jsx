@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { fade, makeStyles } from '@material-ui/core/styles';
-import { AppBar, Toolbar, IconButton, InputBase, Select, MenuItem, Menu, Typography, Button} from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, MenuItem, Menu, Typography, Button} from '@material-ui/core';
 import LightDarkToggle from '../LightDark/LightDarkToggle';
 import MenuIcon from '@material-ui/icons/Menu';
 import './Navbar.css';
