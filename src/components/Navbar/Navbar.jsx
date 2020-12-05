@@ -3,6 +3,7 @@ import { Link, Redirect } from 'react-router-dom';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, IconButton, InputBase, Select, MenuItem, Menu, Typography, Button} from '@material-ui/core';
 import LightDarkToggle from '../LightDark/LightDarkToggle';
+import MenuIcon from '@material-ui/icons/Menu';
 import './Navbar.css';
 
 
@@ -196,7 +197,7 @@ export default function PrimarySearchAppBar() {
                             onClick={handleMobileMenuOpen}
                             color="secondary"
                         >
-                            <Button style={{color: 'red'}}>Here</Button>
+                            <Button style={{color: '#93a1a1'}}><MenuIcon /></Button>
                         </IconButton>
                     </div>
                     <LightDarkToggle />     

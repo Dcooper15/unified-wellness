@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Typography } from "@material-ui/core";
 import Home from "./components/Pages/Home";

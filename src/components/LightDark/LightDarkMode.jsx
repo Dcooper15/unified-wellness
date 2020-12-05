@@ -4,7 +4,9 @@ const LightDarkMode = createGlobalStyle`
 body {
   background-color: ${(props) =>
     props.theme.mode === "dark" ? "#353839" : "#EBEBEB"};
-  color: #93A1A1;
+  
+  color: ${(props) =>
+    props.theme.mode === "dark" ? "#93A1A1" : "#3d3d3d"};
   }
 `;
 
