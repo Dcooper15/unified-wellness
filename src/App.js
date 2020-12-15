@@ -17,7 +17,7 @@ function App() {
  
       
       <>
-      <Typography variant="h1">Unified Wellness</Typography>
+      <Typography variant="h1">Unified Wellness Group</Typography>
    
       <Router>
         <Navbar />
